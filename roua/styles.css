@@ -1,0 +1,310 @@
+.logo {
+    width: 200px;
+    height: 100px;
+}
+
+.nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    /* position: fixed; */
+}
+
+.menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    margin-left: -30px;
+    width: 250px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.nav li:hover,
+a:hover {
+    color: #00bfa5;
+}
+
+.text {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 44.2px;
+    color: rgb(0, 179, 155);
+    width: 30%;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.text1 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    color: rgb(253, 255, 255)
+}
+
+.text2 {
+    font-family: "work Sans", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(116, 116, 116);
+    width: 40%;
+}
+
+.text3 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33.8px;
+    color: rgb(255, 255, 255)
+}
+
+.section2 {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.div1 {
+    width: 310px;
+    height: 341px;
+    background-color: #19d1b8;
+    border-radius: 10px;
+}
+
+.div2 {
+    width: 310px;
+    height: 341px;
+    background-color: #3d83df;
+    border-radius: 10px;
+}
+
+.div3 {
+    width: 310px;
+    height: 341px;
+    background-color: #1b2734;
+    border-radius: 10px;
+}
+
+.text4 {
+    font-family: "work Sans", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 33.8px;
+    color: rgb(0, 179, 155);
+}
+
+.section4 {
+    margin-top: 5%;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.text200 {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    color: gray;
+}
+
+.section41 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image100 {
+    margin-bottom: 20px;
+}
+
+.section42 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section41 p:hover {
+    color: #00bfa5;
+}
+
+.section42 p:hover {
+    color: #00bfa5;
+}
+
+.section3 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #d6f5f5;
+    height: 650px;
+    overflow: hidden;
+}
+
+.section-logo {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.section-logo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35%;
+    margin-top: 25px;
+}
+
+.section-logo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35%;
+    margin-bottom: 25px;
+}
+
+.part111 {
+    background-color: white;
+    height: 35%;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.color1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.9px;
+    color: rgb(116, 116, 116)
+}
+
+.color2 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31.2px;
+    color: rgb(0, 179, 155)
+}
+
+.size1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.size2 {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin: auto;
+}
+
+.color5 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 39px;
+    color: rgb(51, 51, 51)
+}
+
+.div66 {
+    width: 212px;
+    height: 40px;
+    background-color: #1662c6;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.footer-color {
+    font-family: " work sans", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+    color: rgb(171, 171, 171)
+}
+
+.size3 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.sizebig {
+    margin-left: 30%;
+}
+
+.back1 {
+    background-color: #1662c6;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    margin-top: 15px;
+}
+
+.colo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(116, 116, 116)
+}
+
+.part-final:hover {
+    box-shadow: 2px 2px 2px 2px grey;
+    cursor: pointer;
+}
+
+.play {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-top: 120px;
+}
